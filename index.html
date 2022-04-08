@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="shortcut icon" href="images/singlelogo.jpg">
+
+
+    <title>Hacket || Home page</title>
+</head>
+<body>
+    <p id="top"></p>
+    <div id="navbar">
+        <a href="#default" id="logo"><img src="images/logo.jpg" alt="" class="main_logo" id="ml"></a>
+        <div id="navbar-right">
+          <a class="active" href="#top">Home</a>
+          <a href="#se2">Languages</a>
+          <a href="#se3">Contact</a>
+          <a href="#se4">About</a>
+          
+        </div>
+      </div>
+
+      <header class="container">
+        <img src="images/Untitled-5.png" alt="" style="width:100%">
+          <div class="head1">Welcome to HACKET!</div>
+          <div class="head2">World of coding & programming</div>
+      </header>
+      <h1>
+        We are <a href="#se1" class="here">here</a> to make Codes Different!
+      </h1>
+
+      <main class="flex-container">
+        <section class="secmages flex-items">
+        <img src="images/Untitled-4.png" alt=""  id="se1">
+        <p class="secmagetexts">
+          <pre>
+            <code>
+              fnc Hacket[]{
+                let myMission = codes.makeCodesDifferent,
+                let myGoal = codes.hackTheWorld,
+              }
+              Hacket[doAsFastAsYouCan],
+              print["I did it!"],
+            </code>
+          </pre>
+        </p>
+        </section>
+        <p class="sectexts one flex-items">This is the code that we love and two of our slogans are in the code. We are triyng to make this function a soon as possible! (Yes, this means that we'll have our own programming language in future!)</p>
+        <div class="sectexts two flex-items">What can we do? <br> We can make apps & programms with these programming languages: <br> Hacket (We'll be created in future) , Swift , Python , HTML , CSS , Javascript , PHP , and more later.</div>
+        <section class="secmages flex-items">
+        <img src="images/Untitled-2.png" alt=""  id="se2">
+        <p class="secmagetexts"></p>
+        </section>
+        <section class="secmages flex-items">
+          <img src="images/Untitled-8.png" alt=""  id="se3">
+          <p class="secmagetexts"></p>
+          </section>
+        <div class="sectexts three flex-items">We accept your orders for making any apps ar websites you like :) But... Wait! We're sorry, we can't accept your orders for now, beacause we're still learning to be more professional. Just wait a few monthes then we'll accecpt your orders.</div>
+        <div class="sectexts four flex-items">Who are we? <br> Actually, it's not we. It's me! I'm Ehsan, just a student that is highly interested in programming & developing. I've passed the course "HTML, CSS, annd Javascript for web developers" from Johns Hopkins Unversity at Coursera.org and now I'm learning lots of other programming languages.</div>
+        <section class="secmages flex-items">
+        <img src="images/Untitled-7.png" alt=""  id="se4">
+        <p class="secmagetexts"></p>
+        </section>
+      </main>
+
+
+
+      <script>
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            document.getElementById("navbar").style.padding = "0px 10px";
+            document.getElementById("logo").style.fontSize = "25px";
+            document.getElementById("ml").style.transform = "scale(0.7)";
+          } else {
+            document.getElementById("navbar").style.padding = "20px 10px";
+            document.getElementById("logo").style.fontSize = "35px";
+            document.getElementById("ml").style.transform = "scale(1)";
+          }
+        }
+        </script>
+</body>
+</html>
